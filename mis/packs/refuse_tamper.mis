@@ -1,0 +1,174 @@
+// Moniversive Invariant Static (MIS) — deep root
+// Creator: Chandler William Ferguson
+// Letter-hash + EMBED gates 3..=6 · settlement clrty-1 / chain 1202
+// Compile: bin/misc <file>.mis --check --compact-letters
+// Title: Huggingface Sync Bridge · RefuseTamper
+
+module HuggingfaceSyncBridgeRefuseTamper {
+
+  invariant letter_hash_bound: letter_hash_root != @0;
+  invariant deep_root_moniversive: deep_root == moniversive;
+  invariant settlement_chain: chain_id == 1202;
+  invariant settlement_network_clrty1: settlement_network == clrty_1;
+  invariant kernel_is_misc: compiler_kernel == misc;
+  invariant pack_refuse_tamper_bound: pack_bound == true;
+  invariant catalog_backlink: mis_catalog_bound == true;
+
+  invariant refuse_tamper_081: refuse_tamper_081_bound == true;
+  invariant refuse_tamper_082: refuse_tamper_082_bound == true;
+  invariant refuse_tamper_083: refuse_tamper_083_bound == true;
+  invariant refuse_tamper_084: refuse_tamper_084_bound == true;
+  invariant refuse_tamper_085: refuse_tamper_085_bound == true;
+  invariant refuse_tamper_086: refuse_tamper_086_bound == true;
+  invariant refuse_tamper_087: refuse_tamper_087_bound == true;
+  invariant refuse_tamper_088: refuse_tamper_088_bound == true;
+  invariant refuse_tamper_089: refuse_tamper_089_bound == true;
+  invariant refuse_tamper_090: refuse_tamper_090_bound == true;
+  invariant refuse_tamper_091: refuse_tamper_091_bound == true;
+  invariant refuse_tamper_092: refuse_tamper_092_bound == true;
+  invariant refuse_tamper_093: refuse_tamper_093_bound == true;
+  invariant refuse_tamper_094: refuse_tamper_094_bound == true;
+  invariant refuse_tamper_095: refuse_tamper_095_bound == true;
+  invariant refuse_tamper_096: refuse_tamper_096_bound == true;
+  invariant refuse_tamper_097: refuse_tamper_097_bound == true;
+  invariant refuse_tamper_098: refuse_tamper_098_bound == true;
+  invariant refuse_tamper_099: refuse_tamper_099_bound == true;
+  invariant refuse_tamper_100: refuse_tamper_100_bound == true;
+
+  outcome assert_pack(payload: Bytes) {
+    require payload != @0;
+    constraint pack_bound == true;
+  }
+
+  outcome settle_clrty1(intent: Bytes) {
+    require intent != @0;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_refuse_tamper_081(payload: Bytes) {
+    require payload != @0;
+    constraint refuse_tamper_081_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_refuse_tamper_082(payload: Bytes) {
+    require payload != @0;
+    constraint refuse_tamper_082_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_refuse_tamper_083(payload: Bytes) {
+    require payload != @0;
+    constraint refuse_tamper_083_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_refuse_tamper_084(payload: Bytes) {
+    require payload != @0;
+    constraint refuse_tamper_084_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_refuse_tamper_085(payload: Bytes) {
+    require payload != @0;
+    constraint refuse_tamper_085_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_refuse_tamper_086(payload: Bytes) {
+    require payload != @0;
+    constraint refuse_tamper_086_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_refuse_tamper_087(payload: Bytes) {
+    require payload != @0;
+    constraint refuse_tamper_087_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_refuse_tamper_088(payload: Bytes) {
+    require payload != @0;
+    constraint refuse_tamper_088_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_refuse_tamper_089(payload: Bytes) {
+    require payload != @0;
+    constraint refuse_tamper_089_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_refuse_tamper_090(payload: Bytes) {
+    require payload != @0;
+    constraint refuse_tamper_090_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_refuse_tamper_091(payload: Bytes) {
+    require payload != @0;
+    constraint refuse_tamper_091_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_refuse_tamper_092(payload: Bytes) {
+    require payload != @0;
+    constraint refuse_tamper_092_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_refuse_tamper_093(payload: Bytes) {
+    require payload != @0;
+    constraint refuse_tamper_093_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_refuse_tamper_094(payload: Bytes) {
+    require payload != @0;
+    constraint refuse_tamper_094_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_refuse_tamper_095(payload: Bytes) {
+    require payload != @0;
+    constraint refuse_tamper_095_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_refuse_tamper_096(payload: Bytes) {
+    require payload != @0;
+    constraint refuse_tamper_096_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_refuse_tamper_097(payload: Bytes) {
+    require payload != @0;
+    constraint refuse_tamper_097_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_refuse_tamper_098(payload: Bytes) {
+    require payload != @0;
+    constraint refuse_tamper_098_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_refuse_tamper_099(payload: Bytes) {
+    require payload != @0;
+    constraint refuse_tamper_099_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_refuse_tamper_100(payload: Bytes) {
+    require payload != @0;
+    constraint refuse_tamper_100_bound == true;
+    constraint chain_id == 1202;
+  }
+
+
+  outcome refuse_on_mismatch(payload: Bytes) {
+    require payload != @0;
+    constraint weight_integrity_ok == false;
+    constraint chain_id == 1202;
+  }
+}

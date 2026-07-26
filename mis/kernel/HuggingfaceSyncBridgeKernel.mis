@@ -1,0 +1,49 @@
+// Moniversive Invariant Static (MIS) — deep root
+// Creator: Chandler William Ferguson
+// Letter-hash + EMBED gates 3..=6 · settlement clrty-1 / chain 1202
+// Compile: bin/misc <file>.mis --check --compact-letters
+// Title: Huggingface Sync Bridge Kernel
+
+module HuggingfaceSyncBridgeKernel {
+
+  invariant letter_hash_bound: letter_hash_root != @0;
+  invariant deep_root_moniversive: deep_root == moniversive;
+  invariant settlement_chain: chain_id == 1202;
+  invariant settlement_network_clrty1: settlement_network == clrty_1;
+  invariant extension_mis: source_extension == mis;
+  invariant kernel_is_misc: compiler_kernel == misc;
+  invariant active_kernel_only: active_kernel == misc;
+  invariant no_foreign_kernel: foreign_kernel_active == false;
+  invariant creator_bound: creator == chandler_william_ferguson;
+  invariant domain_bound: domain == huggingface_sync_bridge;
+  invariant clrty1_architecture_bound: clrty1_architecture_bound == true;
+  invariant ecosystem_catalog_bound: ecosystem_catalog_bound == true;
+
+  invariant pack_hub_auth_flag: pack_hub_auth_bound == true;
+  invariant pack_weight_fetch_flag: pack_weight_fetch_bound == true;
+  invariant pack_sha256_attest_flag: pack_sha256_attest_bound == true;
+  invariant pack_local_node_bind_flag: pack_local_node_bind_bound == true;
+  invariant pack_refuse_tamper_flag: pack_refuse_tamper_bound == true;
+
+  outcome assert_kernel_misc() {
+    constraint compiler_kernel == misc;
+    constraint active_kernel == misc;
+  }
+
+  outcome letter_hash(source: Bytes) {
+    require source != @0;
+    constraint letter_root != @0;
+  }
+
+  outcome pack_dispatch(pack_id: Bytes, payload: Bytes) {
+    require pack_id != @0;
+    require payload != @0;
+    constraint pack_executed == true;
+  }
+
+  outcome settle_clrty1(intent: Bytes) {
+    require intent != @0;
+    constraint chain_id == 1202;
+    constraint settlement_network == clrty_1;
+  }
+}

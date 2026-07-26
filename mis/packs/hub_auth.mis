@@ -1,0 +1,168 @@
+// Moniversive Invariant Static (MIS) — deep root
+// Creator: Chandler William Ferguson
+// Letter-hash + EMBED gates 3..=6 · settlement clrty-1 / chain 1202
+// Compile: bin/misc <file>.mis --check --compact-letters
+// Title: Huggingface Sync Bridge · HubAuth
+
+module HuggingfaceSyncBridgeHubAuth {
+
+  invariant letter_hash_bound: letter_hash_root != @0;
+  invariant deep_root_moniversive: deep_root == moniversive;
+  invariant settlement_chain: chain_id == 1202;
+  invariant settlement_network_clrty1: settlement_network == clrty_1;
+  invariant kernel_is_misc: compiler_kernel == misc;
+  invariant pack_hub_auth_bound: pack_bound == true;
+  invariant catalog_backlink: mis_catalog_bound == true;
+
+  invariant hub_auth_001: hub_auth_001_bound == true;
+  invariant hub_auth_002: hub_auth_002_bound == true;
+  invariant hub_auth_003: hub_auth_003_bound == true;
+  invariant hub_auth_004: hub_auth_004_bound == true;
+  invariant hub_auth_005: hub_auth_005_bound == true;
+  invariant hub_auth_006: hub_auth_006_bound == true;
+  invariant hub_auth_007: hub_auth_007_bound == true;
+  invariant hub_auth_008: hub_auth_008_bound == true;
+  invariant hub_auth_009: hub_auth_009_bound == true;
+  invariant hub_auth_010: hub_auth_010_bound == true;
+  invariant hub_auth_011: hub_auth_011_bound == true;
+  invariant hub_auth_012: hub_auth_012_bound == true;
+  invariant hub_auth_013: hub_auth_013_bound == true;
+  invariant hub_auth_014: hub_auth_014_bound == true;
+  invariant hub_auth_015: hub_auth_015_bound == true;
+  invariant hub_auth_016: hub_auth_016_bound == true;
+  invariant hub_auth_017: hub_auth_017_bound == true;
+  invariant hub_auth_018: hub_auth_018_bound == true;
+  invariant hub_auth_019: hub_auth_019_bound == true;
+  invariant hub_auth_020: hub_auth_020_bound == true;
+
+  outcome assert_pack(payload: Bytes) {
+    require payload != @0;
+    constraint pack_bound == true;
+  }
+
+  outcome settle_clrty1(intent: Bytes) {
+    require intent != @0;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_hub_auth_001(payload: Bytes) {
+    require payload != @0;
+    constraint hub_auth_001_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_hub_auth_002(payload: Bytes) {
+    require payload != @0;
+    constraint hub_auth_002_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_hub_auth_003(payload: Bytes) {
+    require payload != @0;
+    constraint hub_auth_003_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_hub_auth_004(payload: Bytes) {
+    require payload != @0;
+    constraint hub_auth_004_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_hub_auth_005(payload: Bytes) {
+    require payload != @0;
+    constraint hub_auth_005_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_hub_auth_006(payload: Bytes) {
+    require payload != @0;
+    constraint hub_auth_006_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_hub_auth_007(payload: Bytes) {
+    require payload != @0;
+    constraint hub_auth_007_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_hub_auth_008(payload: Bytes) {
+    require payload != @0;
+    constraint hub_auth_008_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_hub_auth_009(payload: Bytes) {
+    require payload != @0;
+    constraint hub_auth_009_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_hub_auth_010(payload: Bytes) {
+    require payload != @0;
+    constraint hub_auth_010_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_hub_auth_011(payload: Bytes) {
+    require payload != @0;
+    constraint hub_auth_011_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_hub_auth_012(payload: Bytes) {
+    require payload != @0;
+    constraint hub_auth_012_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_hub_auth_013(payload: Bytes) {
+    require payload != @0;
+    constraint hub_auth_013_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_hub_auth_014(payload: Bytes) {
+    require payload != @0;
+    constraint hub_auth_014_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_hub_auth_015(payload: Bytes) {
+    require payload != @0;
+    constraint hub_auth_015_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_hub_auth_016(payload: Bytes) {
+    require payload != @0;
+    constraint hub_auth_016_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_hub_auth_017(payload: Bytes) {
+    require payload != @0;
+    constraint hub_auth_017_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_hub_auth_018(payload: Bytes) {
+    require payload != @0;
+    constraint hub_auth_018_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_hub_auth_019(payload: Bytes) {
+    require payload != @0;
+    constraint hub_auth_019_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_hub_auth_020(payload: Bytes) {
+    require payload != @0;
+    constraint hub_auth_020_bound == true;
+    constraint chain_id == 1202;
+  }
+
+}
